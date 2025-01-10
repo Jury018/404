@@ -11,5 +11,5 @@ function applyDarkModePreference() {
 // Reapply dark mode when the preference changes
 window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", applyDarkModePreference);
 
-// Apply dark mode on page load
+// Apply dark mode on page load based on system preference
 applyDarkModePreference();
